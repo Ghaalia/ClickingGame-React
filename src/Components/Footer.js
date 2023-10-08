@@ -1,10 +1,8 @@
 import React from "react";
 
-const Footner = ({
+const Footer = ({
   currency,
   setCurrency,
-  PlanetsDestroyed,
-  setPlanetsDestroyed,
   setAmount,
   amount,
   price,
@@ -27,4 +25,4 @@ const Footner = ({
   );
 };
 
-export default Footner;
+export default Footer;

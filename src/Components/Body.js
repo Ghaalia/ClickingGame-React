@@ -6,7 +6,6 @@ const Body = ({
   currency,
   setCurrency,
   amount,
-  setAmount,
 }) => {
   const Add = () => {
     setPlanetsDestroyed(PlanetsDestroyed + amount);

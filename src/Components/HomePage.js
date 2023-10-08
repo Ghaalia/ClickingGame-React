@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import Body from "./Body";
-import Footner from "./Footner";
+import Footer from "./Footner";
 
 const HomePage = () => {
   const [currency, setCurrency] = useState(0);
@@ -26,7 +26,7 @@ const HomePage = () => {
           />
         </div>
         <div className="footner">
-          <Footner
+          <Footer
             currency={currency}
             setCurrency={setCurrency}
             PlanetsDestroyed={PlanetsDestroyed}
